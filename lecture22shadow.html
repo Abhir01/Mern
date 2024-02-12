@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadows</title>
+    <style>
+        .container{
+            background-color: beige;
+            height: 650px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            background-color: aqua;
+            width: 330px;
+            height: 330px;
+            border: 1px solid red;
+            margin: 5px;
+            padding: 5px;
+
+            /* shadow */
+            /* box-shadow: -100px 100px blue; */
+            /* box-shadow: 10px 15px 100px brown; */
+            /* box-shadow: 10px 15px 5px 15px brown ; */
+            /* box-shadow: inset -10px -20px green; */
+            /* box-shadow: 10px 15px red , 15px 20px green; */
+
+            /* custom - variable */
+            /* --primary-color: brown; */
+            --custom-width:1100px;
+
+            width: var(--custom-width);
+            background-color: var(--primary-color);
+        }
+        #head1{
+            /* text-shadow: 10px 10px white; */
+            text-shadow: red 5px 5px , green 10px 10px , blue 15px 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="./images/fire.png" alt="">
+            <h2 id="head1">welcome to hello</h2>
+            <p>Lorem ipsum dolor, sit amveniam sed iure expedita, voluptatem dignissimos velit tenetur sunt, alias ut sequi?</p>
+
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trnasition</title>
+    <style>
+
+        /* normal state */
+        .box{
+            height: 400px;
+            width: 400px;
+            background-color: beige;
+            border: 2px solid black;
+
+            /* transition-property: all;
+            transition-duration: 4s;
+            transition-delay: 1s;
+            transition-timing-function: ease-out; */
+
+            /* property duration */
+            transition: all 4s;
+
+            /* prop durn delay */
+            transition: all 4s 1s;
+
+            /* prop durn timeingfucn */
+            transition: all 4s ease;
+
+            /* perop durn timingfunc delay */
+
+            /*  */
+
+        }
+
+        /* hover state transiton */
+        .box:hover{
+            width: 1500px;
+            height: 100vh;
+            background-color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>

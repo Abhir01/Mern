@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media query</title>
+    <style>
+
+        /* .box{
+            height: 400px;
+            width: 400px;
+            
+        } */
+        /* 650px se upar jate hi apply that
+        @media(min-width:650px){
+            .box{
+                background-color: green;
+            }
+        }
+        /* 650px se niche ye apply included*/
+        /* @media  (max-width:600px){
+            .box{
+                background-color: yellow;
+            }
+        }
+        @media (min-width:500px) and (max-width:600px){
+            .box{
+                background-color: black;
+            }
+        } */ 
+        
+
+        /* flexbox media */
+        /* .container{
+            background-color: beige;
+            border: 5px solid black;
+            margin: 2px;
+            padding: 2px;
+        }
+        .box{
+            height: 200px;
+            width: 200px;
+            border: 2px solid red;
+            margin: 2px;
+            padding: 2px;
+        }
+        #b1 , #b2  , #b3 , #b4{
+            background-color: greenyellow;
+
+        } 
+
+        @media (min-width:640px){
+            .container{
+                display: flex;
+                flex-direction: row;
+            }
+        }
+        @media (max-width:640px){
+            .container{
+                display: flex;
+                flex-direction: column;
+            }
+        } */
+
+        /* last div & image */
+
+        .container{
+            background-color: black;
+            border: 5px solid bisque;
+            margin: 3px; 
+             padding: 10px;
+            width: 450px;
+        }
+        
+        .left{
+            background-color: aquamarine;
+            border: 1px solid blue;
+            width: 47%;
+            margin: 3px;
+            padding: 2px;   
+        }
+        .right{
+            background-color: yellow;
+            border: 1px solid brown;
+            width: 47%;
+            margin: 3px;
+            padding: 2px;
+        }
+        img{
+            width: 170px;
+        }
+        p{
+            border: 1px solid red;
+        }
+
+        @media (min-width:650px){
+            .container{
+                display: flex;
+            }
+        }
+        @media (max-width:650px){
+            .container{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+    <!-- <div class="box">
+        hello jee
+    </div> -->
+
+    <!-- <div class="container">
+        <div class="box" id="b1">b1</div>
+        <div class="box" id="b2">b2</div>
+        <div class="box" id="b3">b3</div>
+        <div class="box" id="b4">b4</div>
+    </div> -->
+
+    <div class="container">
+
+        <div class="left">
+            <p>text1</p>
+            <p>text2</p>
+        </div>
+
+        <div class="right">
+            <img src="./images/fire.png" alt="">
+        </div>
+
+    </div>
+
+    
+
+</body>
+</html>

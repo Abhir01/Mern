@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /* div{
+            height: 100px;
+            width: 100px;
+            border: 1px solid red;
+            padding: 1px;
+            margin: 10px;
+        }
+        span , .hello{
+            border: 2px solid darkblue;
+            padding: 1px;
+            margin: 10px;
+        } */
+        .pos{
+            border: 3px solid black;
+            height: 1000px;
+            background-color: aqua;
+            padding: 10px;
+            /* position: relative; */
+        }
+        .img1{
+            /* background-color: red; */
+            height: 100px; width: 100px;
+            border: 2px solid black;
+            /* position: relative;
+            top: 125px; */
+            /* position: absolute;
+            top: 125px; */
+            /* position: fixed; */
+            position: sticky;
+            top: 100px;
+        }.img2{
+            height: 100px; width: 100px;
+            border: 2px solid black;
+            position: fixed;
+            top: 100px;
+
+        }
+        .img3{
+            height: 100px; width: 100px;
+            border: 2px solid black;
+            /* position: sticky; */
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <!-- <div>
+        Abhishek
+    </div>
+    <span>
+        Abhishek
+    </span>
+    <div class="hello">Abhishek</div> -->
+
+    <div class="pos" >
+        <img class="img1" src="./images/fire.png" alt="">
+        <img class="img2" src="./images/fire.png" alt="">
+        <img class="img3" src="./images/fire.png" alt="">
+    </div>
+    <div class="pos"></div>
+</body>
+</html>
