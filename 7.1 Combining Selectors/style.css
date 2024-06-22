@@ -1,0 +1,26 @@
+/* Write your code here: */
+
+h1, h2{
+    color: blueviolet;
+}
+/* parent > child ///////child selector */
+.box > p{
+    color: firebrick;
+}
+
+/* ancestor desendant */ 
+/* easy to implement on a big website */
+.box li{
+    color: blue;
+    /* child selector will not work as li is 2 levels down */
+}
+
+/* chaining */
+li.done{
+    /* lis with same class done */
+    color: seagreen;
+}
+
+ul p{
+    background-color: aqua;
+}
