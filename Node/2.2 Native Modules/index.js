@@ -21,7 +21,7 @@ const fs = require("fs"); //importing file system module
 //   console.log(data);
 // });
 
-fs.readFile("new.txt","utf-8" ,(err, data) => {
+fs.readFile("new.txt","utf-8" ,(err, data) => {  //path , options , err/data
     if (err) {
       console.error(err);
       return;
